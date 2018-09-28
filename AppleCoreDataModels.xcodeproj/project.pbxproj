@@ -6,10 +6,15 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		5D2CF26C215E4E6000ED839B /* photos-10.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "photos-10.0.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		5D2CF264215E4E1400ED839B = {
 			isa = PBXGroup;
 			children = (
+				5D2CF26B215E4E6000ED839B /* photos-10.0.xcdatamodeld */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +67,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D2CF26B215E4E6000ED839B /* photos-10.0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D2CF26C215E4E6000ED839B /* photos-10.0.xcdatamodel */,
+			);
+			currentVersion = 5D2CF26C215E4E6000ED839B /* photos-10.0.xcdatamodel */;
+			path = "photos-10.0.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5D2CF265215E4E1400ED839B /* Project object */;
 }

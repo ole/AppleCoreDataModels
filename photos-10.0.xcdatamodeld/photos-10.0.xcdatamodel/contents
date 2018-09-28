@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AdditionalAssetAttributes" representedClassName="PLAdditionalAssetAttributes" codeGenerationType="class">
+        <attribute name="adjustedFingerPrint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="allowedForAnalysis" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="alternateImportImageDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cameraCaptureDevice" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudAvalanchePickType" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudGroupingState" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudKindSubtype" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudRecoveryState" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudStateRecoveryAttemptsCount" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="creatorBundleID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="customCollectionName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customCollectionUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customMomentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="customMomentUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destinationAssetCopyState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="distanceIdentity" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="editorBundleID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="embeddedThumbnailHeight" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="embeddedThumbnailLength" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="embeddedThumbnailOffset" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="embeddedThumbnailWidth" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="exifTimestampString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="externalUsageIntent" optional="YES" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="faceRegions" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="importedBy" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="importSessionID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="lastUploadAttemptDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="locationHash" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="masterFingerPrint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="montage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalAssetsUUID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalFilename" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalFilesize" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalHash" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="originalHeight" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalOrientation" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalResourceChoice" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="originalWidth" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="originatingAssetIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pendingPlayCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="pendingShareCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pendingViewCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="placeAnnotationData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="playCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="ptpTrashedState" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="publicGlobalUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reverseLocationData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="reverseLocationDataIsValid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="sceneAnalysisTimestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sceneAnalysisVersion" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shareCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="shareOriginator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="shiftedLocationData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="shiftedLocationIsValid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="timeZoneName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeZoneOffset" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uploadAttempts" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="variationSuggestionStates" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoCpDisplayTimescale" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoCpDisplayValue" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoCpDurationTimescale" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="viewCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="asset" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="additionalAttributes" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <relationship name="assetDescription" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="AssetDescription" inverseName="assetAttributes" inverseEntity="AssetDescription" syncable="YES"/>
+        <relationship name="keywords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Keyword" inverseName="assetAttributes" inverseEntity="Keyword" syncable="YES"/>
+        <relationship name="personReferences" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PersonReference" inverseName="assetAttributes" inverseEntity="PersonReference" syncable="YES"/>
+        <relationship name="sceneClassifications" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SceneClassification" inverseName="assetAttributes" inverseEntity="SceneClassification" syncable="YES"/>
+        <relationship name="sceneprint" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Sceneprint" inverseName="additionalAssetAttributes" inverseEntity="Sceneprint" syncable="YES"/>
+        <relationship name="unmanagedAdjustment" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="UnmanagedAdjustment" inverseName="assetAttributes" inverseEntity="UnmanagedAdjustment" syncable="YES"/>
+        <fetchIndex name="byAdjustedFingerPrintIndex">
+            <fetchIndexElement property="adjustedFingerPrint" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAllowedForAnalysisIndex">
+            <fetchIndexElement property="allowedForAnalysis" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCameraCaptureDeviceIndex">
+            <fetchIndexElement property="cameraCaptureDevice" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCreatorBundleIDIndex">
+            <fetchIndexElement property="creatorBundleID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLocationHashIndex">
+            <fetchIndexElement property="locationHash" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMasterFingerPrintIndex">
+            <fetchIndexElement property="masterFingerPrint" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byOriginalAssetsUUIDIndex">
+            <fetchIndexElement property="originalAssetsUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byOriginalHashIndex">
+            <fetchIndexElement property="originalHash" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPublicGlobalUUIDIndex">
+            <fetchIndexElement property="publicGlobalUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byReverseLocationDataIsValidIndex">
+            <fetchIndexElement property="reverseLocationDataIsValid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byShiftedLocationIsValidIndex">
+            <fetchIndexElement property="shiftedLocationIsValid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUploadAttemptsIndex">
+            <fetchIndexElement property="uploadAttempts" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetDescriptionIndex">
+            <fetchIndexElement property="assetDescription" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeywordsIndex">
+            <fetchIndexElement property="keywords" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonReferencesIndex">
+            <fetchIndexElement property="personReferences" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySceneClassificationsIndex">
+            <fetchIndexElement property="sceneClassifications" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySceneprintIndex">
+            <fetchIndexElement property="sceneprint" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUnmanagedAdjustmentIndex">
+            <fetchIndexElement property="unmanagedAdjustment" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo>
+            <entry key="com.apple.suppressfromchangehub" value="YES"/>
+        </userInfo>
+    </entity>
+    <entity name="Adjustment" representedClassName="PLManagedAdjustment" codeGenerationType="class">
+        <attribute name="filterName" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="filterSettings" optional="YES" attributeType="Transformable" valueTransformerName="PLPropertyListFromData">
+            <userInfo/>
+        </attribute>
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <relationship name="asset" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="adjustments" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="Album" representedClassName="PLManagedAlbum" parentEntity="GenericAlbum" codeGenerationType="class">
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAsset" inverseName="albums" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="AlbumList" representedClassName="PLManagedAlbumList" codeGenerationType="class">
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="needsReorderingNumber" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAlbum" inverseName="albumLists" inverseEntity="GenericAlbum">
+            <userInfo/>
+        </relationship>
+        <fetchIndex name="byIdentifierIndex">
+            <fetchIndexElement property="identifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsIndex">
+            <fetchIndexElement property="albums" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="Asset" representedClassName="PLManagedAsset" parentEntity="GenericAsset" codeGenerationType="class">
+        <userInfo/>
+    </entity>
+    <entity name="AssetAnalysisState" representedClassName="PLAssetAnalysisState" syncable="YES" codeGenerationType="class">
+        <attribute name="analysisState" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="assetUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ignoreUntilDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastIgnoredDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sortToken" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="workerFlags" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="workerType" attributeType="Integer 16" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="analysisStates" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="bySortTokenIndex">
+            <fetchIndexElement property="sortToken" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byWorkerTypeIndex">
+            <fetchIndexElement property="workerType" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="AssetDescription" representedClassName="PLAssetDescription" syncable="YES" codeGenerationType="class">
+        <attribute name="longDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assetAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="assetDescription" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <fetchIndex name="byAssetAttributesIndex">
+            <fetchIndexElement property="assetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudFeedAssetsEntry" representedClassName="PLCloudFeedAssetsEntry" parentEntity="CloudFeedEntry" syncable="YES" codeGenerationType="class">
+        <relationship name="entryAssets" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAsset" inverseName="cloudFeedAssetsEntry" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byEntryAssetsIndex">
+            <fetchIndexElement property="entryAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudFeedCommentsEntry" representedClassName="PLCloudFeedCommentsEntry" parentEntity="CloudFeedEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="entryCloudAssetGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="entryComments" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CloudSharedComment" inverseName="cloudFeedCommentEntry" inverseEntity="CloudSharedComment" syncable="YES"/>
+        <relationship name="entryLikeComments" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CloudSharedComment" inverseName="cloudFeedLikeCommentEntry" inverseEntity="CloudSharedComment" syncable="YES"/>
+        <fetchIndex name="byEntryCommentsIndex">
+            <fetchIndexElement property="entryComments" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byEntryLikeCommentsIndex">
+            <fetchIndexElement property="entryLikeComments" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudFeedEntry" representedClassName="PLCloudFeedEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="entryAlbumGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryDate" attributeType="Date" syncable="YES"/>
+        <attribute name="entryInvitationRecordGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="entryPriorityNumber" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="entryTypeNumber" attributeType="Integer 16" minValueString="1" syncable="YES"/>
+        <fetchIndex name="byEntryDateIndex">
+            <fetchIndexElement property="entryDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byEntryTypeNumberIndex">
+            <fetchIndexElement property="entryTypeNumber" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudMaster" representedClassName="PLCloudMaster" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudMasterGUID" attributeType="String" syncable="YES"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fullSizeJPEGSource" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="importDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="importedBy" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="importSessionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaMetadataType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalFilename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalOrientation" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="originatingAssetIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placeholderState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniformTypeIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="master" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="mediaMetadata" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CloudMasterMediaMetadata" inverseName="cloudMaster" inverseEntity="CloudMasterMediaMetadata" syncable="YES"/>
+        <relationship name="modernResources" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="InternalResource" inverseName="cloudMaster" inverseEntity="InternalResource" syncable="YES"/>
+        <relationship name="momentShare" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MomentShare" inverseName="masters" inverseEntity="MomentShare" syncable="YES"/>
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CloudResource" inverseName="cloudMaster" inverseEntity="CloudResource" syncable="YES"/>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudMasterGUIDIndex">
+            <fetchIndexElement property="cloudMasterGUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMediaMetadataIndex">
+            <fetchIndexElement property="mediaMetadata" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byModernResourcesIndex">
+            <fetchIndexElement property="modernResources" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentShareIndex">
+            <fetchIndexElement property="momentShare" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byResourcesIndex">
+            <fetchIndexElement property="resources" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudMasterMediaMetadata" representedClassName="PLCloudMasterMediaMetadata" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="cloudMaster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CloudMaster" inverseName="mediaMetadata" inverseEntity="CloudMaster" syncable="YES"/>
+        <fetchIndex name="byCloudMasterIndex">
+            <fetchIndexElement property="cloudMaster" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudResource" representedClassName="PLCloudResource" syncable="YES" codeGenerationType="class">
+        <attribute name="assetUuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fileSize" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fingerprint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="height" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isAvailable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isLocallyAvailable" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="itemIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOnDemandDownloadDate" optional="YES" attributeType="Date" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="lastPrefetchDate" attributeType="Date" defaultDateTimeInterval="0" syncable="YES"/>
+        <attribute name="prefetchCount" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prunedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sourceType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniformTypeIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="resources" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="cloudMaster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CloudMaster" inverseName="resources" inverseEntity="CloudMaster" syncable="YES"/>
+        <fetchIndex name="byAssetUuidIndex">
+            <fetchIndexElement property="assetUuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDateCreatedIndex">
+            <fetchIndexElement property="dateCreated" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byIsAvailableIndex">
+            <fetchIndexElement property="isAvailable" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byIsLocallyAvailableIndex">
+            <fetchIndexElement property="isLocallyAvailable" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byTypeIndex">
+            <fetchIndexElement property="type" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudMasterIndex">
+            <fetchIndexElement property="cloudMaster" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudSharedAlbum" representedClassName="PLCloudSharedAlbum" parentEntity="Album" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudAlbumSubtype" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudCreationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cloudLastContributionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cloudLastInterestingChangeDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cloudMetadata" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="cloudMultipleContributorsEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudMultipleContributorsEnabledLocal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudNotificationsEnabled" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="cloudOwnerEmailKey" optional="YES" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="cloudOwnerFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudOwnerFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudOwnerHashedPersonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudOwnerIsWhitelisted" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="cloudOwnerLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudPersonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudPublicURLEnabled" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudPublicURLEnabledLocal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudRelationshipState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudRelationshipStateLocal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudSubscriptionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="hasUnseenContent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isOwned" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="publicURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unseenAssetsCount" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <relationship name="invitationRecords" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CloudSharedAlbumInvitationRecord" inverseName="album" inverseEntity="CloudSharedAlbumInvitationRecord" syncable="YES"/>
+        <fetchIndex name="byInvitationRecordsIndex">
+            <fetchIndexElement property="invitationRecords" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudSharedAlbumInvitationRecord" representedClassName="PLCloudSharedAlbumInvitationRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="albumGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="invitationState" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="invitationStateLocal" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="inviteeEmailKey" optional="YES" attributeType="Integer 32" defaultValueString="-1" syncable="YES"/>
+        <attribute name="inviteeFirstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteeFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteeHashedPersonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteeLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inviteeSubscriptionDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isMine" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="album" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CloudSharedAlbum" inverseName="invitationRecords" inverseEntity="CloudSharedAlbum" syncable="YES"/>
+        <fetchIndex name="byAlbumIndex">
+            <fetchIndexElement property="album" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="CloudSharedComment" representedClassName="PLCloudSharedComment" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentClientDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="commentDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="commenterHashedPersonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="commentType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isBatchComment" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isCaption" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isDeletable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isLike" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isMyComment" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="cloudFeedCommentEntry" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CloudFeedCommentsEntry" inverseName="entryComments" inverseEntity="CloudFeedCommentsEntry" syncable="YES"/>
+        <relationship name="cloudFeedLikeCommentEntry" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="CloudFeedCommentsEntry" inverseName="entryLikeComments" inverseEntity="CloudFeedCommentsEntry" syncable="YES"/>
+        <relationship name="commentedAsset" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="cloudComments" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="likedAsset" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="likeComments" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byCloudGUIDIndex">
+            <fetchIndexElement property="cloudGUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudFeedCommentEntryIndex">
+            <fetchIndexElement property="cloudFeedCommentEntry" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudFeedLikeCommentEntryIndex">
+            <fetchIndexElement property="cloudFeedLikeCommentEntry" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCommentedAssetIndex">
+            <fetchIndexElement property="commentedAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLikedAssetIndex">
+            <fetchIndexElement property="likedAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Codec" representedClassName="PLCodec" syncable="YES" codeGenerationType="class">
+        <attribute name="fourCharCodeName" attributeType="String" syncable="YES"/>
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InternalResource" inverseName="codec" inverseEntity="InternalResource" syncable="YES"/>
+        <fetchIndex name="byFourCharCodeNameIndex">
+            <fetchIndexElement property="fourCharCodeName" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byResourcesIndex">
+            <fetchIndexElement property="resources" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="ColorSpace" representedClassName="PLColorSpace" syncable="YES" codeGenerationType="class">
+        <attribute name="colorSpaceName" attributeType="String" syncable="YES"/>
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InternalResource" inverseName="colorSpace" inverseEntity="InternalResource" syncable="YES"/>
+        <fetchIndex name="byColorSpaceNameIndex">
+            <fetchIndexElement property="colorSpaceName" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byResourcesIndex">
+            <fetchIndexElement property="resources" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="ComputedAssetAttributes" representedClassName="PLComputedAssetAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="failureScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="harmoniousColorScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="immersivenessScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="interestingSubjectScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="intrusiveObjectPresenceScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="livelyColorScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="lowLight" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="noiseScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantCameraTiltScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantCompositionScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantLightingScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantPatternScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantPerspectiveScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantPostProcessingScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantReflectionsScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="pleasantSymmetryScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="sharplyFocusedSubjectScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="tastefullyBlurredScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="wellChosenSubjectScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="wellFramedSubjectScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="wellTimedShotScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <relationship name="asset" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="computedAttributes" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="DeferredRebuildFace" representedClassName="PLDeferredRebuildFace" syncable="YES" codeGenerationType="class">
+        <attribute name="assetCloudGUID" attributeType="String" syncable="YES"/>
+        <attribute name="assetUUID" attributeType="String" syncable="YES"/>
+        <attribute name="centerX" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="centerY" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudNameSource" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="clusterRejected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="faceAlgorithmVersion" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="hidden" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="manual" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="nameSource" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="personUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rejected" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="representative" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="size" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <fetchIndex name="byAssetCloudGUIDIndex">
+            <fetchIndexElement property="assetCloudGUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="DetectedFace" representedClassName="PLDetectedFace" syncable="YES" codeGenerationType="class">
+        <attribute name="adjustmentVersion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ageType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="assetVisible" attributeType="Boolean" defaultValueString="NO" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(asset.trashedState == 0) &amp;&amp; (asset.visibilityState == 0) &amp;&amp; (asset.hidden == NO)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="baldType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="blurScore" attributeType="Double" defaultValueString="0.3" syncable="YES"/>
+        <attribute name="centerX" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="centerY" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudNameSource" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="clusterSequenceNumber" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="confirmedFaceCropGenerationState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="eyeMakeupType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="eyesState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="faceAlgorithmVersion" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="facialHairType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="genderType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="glassesType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupingIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hairColorType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hasSmile" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hidden" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isInTrash" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isLeftEyeClosed" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isRightEyeClosed" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="leftEyeX" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="leftEyeY" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="lipMakeupType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="manual" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="masterIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mouthX" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="mouthY" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="nameSource" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="poseYaw" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="qualityMeasure" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="rightEyeX" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="rightEyeY" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="smileType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="sourceHeight" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sourceWidth" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="trainingType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="detectedFaces" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="clusterRejectedPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="clusterRejectedFaces" inverseEntity="Person" syncable="YES"/>
+        <relationship name="faceCrop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FaceCrop" inverseName="face" inverseEntity="FaceCrop" syncable="YES"/>
+        <relationship name="faceGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFaceGroup" inverseName="detectedFaces" inverseEntity="DetectedFaceGroup" syncable="YES"/>
+        <relationship name="faceGroupBeingKeyFace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFaceGroup" inverseName="keyFace" inverseEntity="DetectedFaceGroup" syncable="YES"/>
+        <relationship name="faceprint" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DetectedFaceprint" inverseName="face" inverseEntity="DetectedFaceprint" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="detectedFaces" inverseEntity="Person" syncable="YES"/>
+        <relationship name="personBeingKeyFace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="keyFace" inverseEntity="Person" syncable="YES"/>
+        <relationship name="rejectedPersons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="rejectedFaces" inverseEntity="Person" syncable="YES"/>
+        <relationship name="rejectedPersonsNeedingFaceCrops" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" inverseName="rejectedFacesNeedingFaceCrops" inverseEntity="Person" syncable="YES"/>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byClusterSequenceNumberIndex">
+            <fetchIndexElement property="clusterSequenceNumber" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byClusterRejectedPersonsIndex">
+            <fetchIndexElement property="clusterRejectedPersons" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceCropIndex">
+            <fetchIndexElement property="faceCrop" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceGroupIndex">
+            <fetchIndexElement property="faceGroup" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceGroupBeingKeyFaceIndex">
+            <fetchIndexElement property="faceGroupBeingKeyFace" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceprintIndex">
+            <fetchIndexElement property="faceprint" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonIndex">
+            <fetchIndexElement property="person" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonBeingKeyFaceIndex">
+            <fetchIndexElement property="personBeingKeyFace" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRejectedPersonsIndex">
+            <fetchIndexElement property="rejectedPersons" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRejectedPersonsNeedingFaceCropsIndex">
+            <fetchIndexElement property="rejectedPersonsNeedingFaceCrops" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="DetectedFaceGroup" representedClassName="PLDetectedFaceGroup" syncable="YES" codeGenerationType="class">
+        <attribute name="personBuilderState" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="unnamedFaceCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="associatedPerson" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Person" inverseName="associatedFaceGroup" inverseEntity="Person" syncable="YES"/>
+        <relationship name="detectedFaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="faceGroup" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="keyFace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="faceGroupBeingKeyFace" inverseEntity="DetectedFace" syncable="YES"/>
+        <fetchIndex name="byPersonBuilderStateIndex">
+            <fetchIndexElement property="personBuilderState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssociatedPersonIndex">
+            <fetchIndexElement property="associatedPerson" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDetectedFacesIndex">
+            <fetchIndexElement property="detectedFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyFaceIndex">
+            <fetchIndexElement property="keyFace" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="DetectedFaceprint" representedClassName="PLDetectedFaceprint" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="faceprintVersion" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="face" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="faceprint" inverseEntity="DetectedFace" syncable="YES"/>
+        <fetchIndex name="byFaceIndex">
+            <fetchIndexElement property="face" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="FaceCrop" representedClassName="PLFaceCrop" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="invalidMergeCandidatePersonUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="resourceData" attributeType="Binary" syncable="YES"/>
+        <attribute name="state" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="faceCrops" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="face" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="DetectedFace" inverseName="faceCrop" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="person" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="faceCrops" inverseEntity="Person" syncable="YES"/>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byStateIndex">
+            <fetchIndexElement property="state" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceIndex">
+            <fetchIndexElement property="face" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonIndex">
+            <fetchIndexElement property="person" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="FetchingAlbum" representedClassName="PLFetchingAlbum" parentEntity="GenericAlbum" codeGenerationType="class">
+        <attribute name="customQueryParameters" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="customQueryType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fetchedAssets" optional="YES" transient="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="fetchRequest" optional="YES" transient="YES">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="Folder" representedClassName="PLManagedFolder" parentEntity="GenericAlbum" syncable="YES" codeGenerationType="class">
+        <relationship name="childCollections" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAlbum" inverseName="parentFolder" inverseEntity="GenericAlbum" syncable="YES"/>
+        <fetchIndex name="byChildCollectionsIndex">
+            <fetchIndexElement property="childCollections" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="GenericAlbum" representedClassName="PLGenericAlbum" isAbstract="YES" codeGenerationType="class">
+        <attribute name="cachedCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="cachedPhotosCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="cachedVideosCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="customSortAscending" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="customSortKey" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="importSessionID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="isPinned" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="kind" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="pendingItemsCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="pendingItemsType" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="slideshowSettings" optional="YES" transient="YES" attributeType="Transformable">
+            <userInfo/>
+        </attribute>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="syncEventOrderKey" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="trashedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trashedState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="albumLists" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AlbumList" inverseName="albums" inverseEntity="AlbumList">
+            <userInfo/>
+        </relationship>
+        <relationship name="customKeyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="albumsBeingCustomKeyAssetFor" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="keyAsset" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="albumsBeingKeyAssetFor" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <relationship name="parentFolder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="childCollections" inverseEntity="Folder" syncable="YES"/>
+        <relationship name="secondaryKeyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="albumsBeingSecondaryKeyAssetFor" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="tertiaryKeyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="albumsBeingTertiaryKeyAssetFor" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byCloudGUIDIndex">
+            <fetchIndexElement property="cloudGUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byImportSessionIDIndex">
+            <fetchIndexElement property="importSessionID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKindIndex">
+            <fetchIndexElement property="kind" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySyncEventOrderKeyIndex">
+            <fetchIndexElement property="syncEventOrderKey" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumListsIndex">
+            <fetchIndexElement property="albumLists" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCustomKeyAssetIndex">
+            <fetchIndexElement property="customKeyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyAssetIndex">
+            <fetchIndexElement property="keyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byParentFolderIndex">
+            <fetchIndexElement property="parentFolder" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySecondaryKeyAssetIndex">
+            <fetchIndexElement property="secondaryKeyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byTertiaryKeyAssetIndex">
+            <fetchIndexElement property="tertiaryKeyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="GenericAsset" representedClassName="PLManagedAsset" isAbstract="YES" codeGenerationType="class">
+        <attribute name="addedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="adjustmentTimestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="avalanchePickType" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="avalancheUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="boundedByRect" optional="YES" transient="YES" syncable="YES"/>
+        <attribute name="cloudAssetGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudBatchID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudBatchPublishDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cloudCollectionGUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudDownloadRequests" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudHasCommentsByMe" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudHasCommentsConversation" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudHasUnseenComments" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudIsDeletable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudIsMyAsset" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="cloudLastViewedCommentDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudOwnerHashedPersonID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cloudPlaceholderKind" attributeType="Integer 16" defaultValueString="0">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudServerPublishDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="complete" attributeType="Boolean" defaultValueString="YES">
+            <userInfo/>
+        </attribute>
+        <attribute name="curationScore" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="customRenderedValue" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="dateCreated" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="depthStates" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="directory" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="duration" optional="YES" attributeType="Double" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="faceAdjustmentVersion" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="faceAreaPoints" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="favorite" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="filename" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="groupingState" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupingUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasAdjustments" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="hdrGain" attributeType="Float" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="height" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="hidden" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="highlightCurationScore" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageRequestHints" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="kind" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="kindSubtype" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastSharedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="latitude" attributeType="Double" defaultValueString="-180" syncable="YES"/>
+        <attribute name="localResourcesState" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="locationData" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <attribute name="longitude" attributeType="Double" defaultValueString="-180" syncable="YES"/>
+        <attribute name="mediaGroupUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modificationDate" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="orientation" optional="YES" attributeType="Integer 16" maxValueString="8" defaultValueString="1">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalColorSpace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="overallAestheticScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="packedAcceptableCropRect" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="packedPreferredCropRect" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="playbackStyle" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="playbackVariation" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="promotionScore" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="savedAssetType" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="sortToken" attributeType="Double" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="thumbnailIndex" attributeType="Integer 32" defaultValueString="-1">
+            <userInfo/>
+        </attribute>
+        <attribute name="trashedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="trashedState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniformTypeIdentifier" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="uuid" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="videoCpDurationValue" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoCpVisibilityState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="visibilityState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="width" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <relationship name="additionalAttributes" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="AdditionalAssetAttributes" inverseName="asset" inverseEntity="AdditionalAssetAttributes">
+            <userInfo/>
+        </relationship>
+        <relationship name="adjustments" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Adjustment" inverseName="asset" inverseEntity="Adjustment">
+            <userInfo/>
+        </relationship>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Album" inverseName="assets" inverseEntity="Album">
+            <userInfo/>
+        </relationship>
+        <relationship name="albumsBeingCustomKeyAssetFor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAlbum" inverseName="customKeyAsset" inverseEntity="GenericAlbum" syncable="YES"/>
+        <relationship name="albumsBeingKeyAssetFor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAlbum" inverseName="keyAsset" inverseEntity="GenericAlbum">
+            <userInfo/>
+        </relationship>
+        <relationship name="albumsBeingSecondaryKeyAssetFor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAlbum" inverseName="secondaryKeyAsset" inverseEntity="GenericAlbum" syncable="YES"/>
+        <relationship name="albumsBeingTertiaryKeyAssetFor" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAlbum" inverseName="tertiaryKeyAsset" inverseEntity="GenericAlbum" syncable="YES"/>
+        <relationship name="analysisStates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AssetAnalysisState" inverseName="asset" inverseEntity="AssetAnalysisState" syncable="YES"/>
+        <relationship name="cloudComments" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CloudSharedComment" inverseName="commentedAsset" inverseEntity="CloudSharedComment" syncable="YES"/>
+        <relationship name="cloudFeedAssetsEntry" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CloudFeedAssetsEntry" inverseName="entryAssets" inverseEntity="CloudFeedAssetsEntry" syncable="YES"/>
+        <relationship name="computedAttributes" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ComputedAssetAttributes" inverseName="asset" inverseEntity="ComputedAssetAttributes" syncable="YES"/>
+        <relationship name="destinationAssetsForDuplication" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="sourceAssetForDuplication" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="detectedFaces" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="DetectedFace" inverseName="asset" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="faceCrops" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="FaceCrop" inverseName="asset" inverseEntity="FaceCrop" syncable="YES"/>
+        <relationship name="highlightBeingAssets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="assets" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="highlightBeingExtendedAssets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="extendedAssets" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="highlightBeingKeyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="keyAsset" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="highlightBeingOverviewAssets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="overviewAssets" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="highlightBeingSummaryAssets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="summaryAssets" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="importSession" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ImportSession" inverseName="assets" inverseEntity="ImportSession" syncable="YES"/>
+        <relationship name="legacyFaces" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="LegacyFace" inverseName="asset" inverseEntity="LegacyFace">
+            <userInfo/>
+        </relationship>
+        <relationship name="likeComments" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="CloudSharedComment" inverseName="likedAsset" inverseEntity="CloudSharedComment" syncable="YES"/>
+        <relationship name="master" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CloudMaster" inverseName="assets" inverseEntity="CloudMaster" syncable="YES"/>
+        <relationship name="mediaAnalysisAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MediaAnalysisAssetAttributes" inverseName="asset" inverseEntity="MediaAnalysisAssetAttributes" syncable="YES"/>
+        <relationship name="memoriesBeingCuratedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Memory" inverseName="curatedAssets" inverseEntity="Memory" syncable="YES"/>
+        <relationship name="memoriesBeingExtendedCuratedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Memory" inverseName="extendedCuratedAssets" inverseEntity="Memory" syncable="YES"/>
+        <relationship name="memoriesBeingKeyAsset" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Memory" inverseName="keyAsset" inverseEntity="Memory" syncable="YES"/>
+        <relationship name="memoriesBeingMovieCuratedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Memory" inverseName="movieCuratedAssets" inverseEntity="Memory" syncable="YES"/>
+        <relationship name="memoriesBeingRepresentativeAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Memory" inverseName="representativeAssets" inverseEntity="Memory" syncable="YES"/>
+        <relationship name="modernResources" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="InternalResource" inverseName="asset" inverseEntity="InternalResource" syncable="YES"/>
+        <relationship name="moment" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Moment" inverseName="assets" inverseEntity="Moment" syncable="YES"/>
+        <relationship name="momentShare" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MomentShare" inverseName="assets" inverseEntity="MomentShare" syncable="YES"/>
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CloudResource" inverseName="asset" inverseEntity="CloudResource" syncable="YES"/>
+        <relationship name="searchData" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="SearchData" inverseName="asset" inverseEntity="SearchData" syncable="YES"/>
+        <relationship name="sidecarFiles" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="SidecarFile" inverseName="asset" inverseEntity="SidecarFile">
+            <userInfo/>
+        </relationship>
+        <relationship name="sourceAssetForDuplication" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="destinationAssetsForDuplication" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="suggestionsBeingKeyAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Suggestion" inverseName="keyAssets" inverseEntity="Suggestion" syncable="YES"/>
+        <relationship name="suggestionsBeingRepresentativeAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Suggestion" inverseName="representativeAssets" inverseEntity="Suggestion" syncable="YES"/>
+        <fetchIndex name="byAddedDateIndex">
+            <fetchIndexElement property="addedDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAvalanchePickTypeIndex">
+            <fetchIndexElement property="avalanchePickType" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAvalancheUUIDIndex">
+            <fetchIndexElement property="avalancheUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudAssetGUIDIndex">
+            <fetchIndexElement property="cloudAssetGUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudPlaceholderKindIndex">
+            <fetchIndexElement property="cloudPlaceholderKind" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCompleteIndex">
+            <fetchIndexElement property="complete" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCustomRenderedValueIndex">
+            <fetchIndexElement property="customRenderedValue" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDateCreatedIndex">
+            <fetchIndexElement property="dateCreated" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDepthStatesIndex">
+            <fetchIndexElement property="depthStates" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFavoriteIndex">
+            <fetchIndexElement property="favorite" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byGroupingUUIDIndex">
+            <fetchIndexElement property="groupingUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKindIndex">
+            <fetchIndexElement property="kind" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKindSubtypeIndex">
+            <fetchIndexElement property="kindSubtype" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLastSharedDateIndex">
+            <fetchIndexElement property="lastSharedDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMediaGroupUUIDIndex">
+            <fetchIndexElement property="mediaGroupUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPlaybackStyleIndex">
+            <fetchIndexElement property="playbackStyle" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPlaybackVariationIndex">
+            <fetchIndexElement property="playbackVariation" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySavedAssetTypeIndex">
+            <fetchIndexElement property="savedAssetType" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySortTokenIndex">
+            <fetchIndexElement property="sortToken" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byThumbnailIndexIndex">
+            <fetchIndexElement property="thumbnailIndex" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUniformTypeIdentifierIndex">
+            <fetchIndexElement property="uniformTypeIdentifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byVisibilityStateIndex">
+            <fetchIndexElement property="visibilityState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAdditionalAttributesIndex">
+            <fetchIndexElement property="additionalAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAdjustmentsIndex">
+            <fetchIndexElement property="adjustments" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsIndex">
+            <fetchIndexElement property="albums" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsBeingCustomKeyAssetForIndex">
+            <fetchIndexElement property="albumsBeingCustomKeyAssetFor" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsBeingKeyAssetForIndex">
+            <fetchIndexElement property="albumsBeingKeyAssetFor" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsBeingSecondaryKeyAssetForIndex">
+            <fetchIndexElement property="albumsBeingSecondaryKeyAssetFor" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAlbumsBeingTertiaryKeyAssetForIndex">
+            <fetchIndexElement property="albumsBeingTertiaryKeyAssetFor" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAnalysisStatesIndex">
+            <fetchIndexElement property="analysisStates" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudCommentsIndex">
+            <fetchIndexElement property="cloudComments" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudFeedAssetsEntryIndex">
+            <fetchIndexElement property="cloudFeedAssetsEntry" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byComputedAttributesIndex">
+            <fetchIndexElement property="computedAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDestinationAssetsForDuplicationIndex">
+            <fetchIndexElement property="destinationAssetsForDuplication" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDetectedFacesIndex">
+            <fetchIndexElement property="detectedFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceCropsIndex">
+            <fetchIndexElement property="faceCrops" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightBeingAssetsIndex">
+            <fetchIndexElement property="highlightBeingAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightBeingExtendedAssetsIndex">
+            <fetchIndexElement property="highlightBeingExtendedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightBeingKeyAssetIndex">
+            <fetchIndexElement property="highlightBeingKeyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightBeingOverviewAssetsIndex">
+            <fetchIndexElement property="highlightBeingOverviewAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightBeingSummaryAssetsIndex">
+            <fetchIndexElement property="highlightBeingSummaryAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byImportSessionIndex">
+            <fetchIndexElement property="importSession" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLegacyFacesIndex">
+            <fetchIndexElement property="legacyFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLikeCommentsIndex">
+            <fetchIndexElement property="likeComments" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMasterIndex">
+            <fetchIndexElement property="master" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMediaAnalysisAttributesIndex">
+            <fetchIndexElement property="mediaAnalysisAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMemoriesBeingCuratedAssetsIndex">
+            <fetchIndexElement property="memoriesBeingCuratedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMemoriesBeingExtendedCuratedAssetsIndex">
+            <fetchIndexElement property="memoriesBeingExtendedCuratedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMemoriesBeingKeyAssetIndex">
+            <fetchIndexElement property="memoriesBeingKeyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMemoriesBeingMovieCuratedAssetsIndex">
+            <fetchIndexElement property="memoriesBeingMovieCuratedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMemoriesBeingRepresentativeAssetsIndex">
+            <fetchIndexElement property="memoriesBeingRepresentativeAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byModernResourcesIndex">
+            <fetchIndexElement property="modernResources" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentIndex">
+            <fetchIndexElement property="moment" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentShareIndex">
+            <fetchIndexElement property="momentShare" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byResourcesIndex">
+            <fetchIndexElement property="resources" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySearchDataIndex">
+            <fetchIndexElement property="searchData" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySidecarFilesIndex">
+            <fetchIndexElement property="sidecarFiles" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySourceAssetForDuplicationIndex">
+            <fetchIndexElement property="sourceAssetForDuplication" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySuggestionsBeingKeyAssetsIndex">
+            <fetchIndexElement property="suggestionsBeingKeyAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySuggestionsBeingRepresentativeAssetsIndex">
+            <fetchIndexElement property="suggestionsBeingRepresentativeAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="ImportSession" representedClassName="PLImportSession" parentEntity="GenericAlbum" syncable="YES" codeGenerationType="class">
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAsset" inverseName="importSession" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="InternalResource" representedClassName="PLInternalResource" syncable="YES" codeGenerationType="class">
+        <attribute name="dataLength" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="dataStoreID" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dataStoreKeyData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="dataStoreSubtype" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="fingerprint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localAvailability" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="localAvailabilityTarget" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="orientation" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="qualitySortValue" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipeID" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="remoteAvailability" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="remoteAvailabilityTarget" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="resourceType" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="unorientedHeight" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="unorientedWidth" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="version" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="modernResources" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="cloudAttributes" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="InternalResourceCloudAttributes" inverseName="resource" inverseEntity="InternalResourceCloudAttributes" syncable="YES"/>
+        <relationship name="cloudMaster" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CloudMaster" inverseName="modernResources" inverseEntity="CloudMaster" syncable="YES"/>
+        <relationship name="codec" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Codec" inverseName="resources" inverseEntity="Codec" syncable="YES"/>
+        <relationship name="colorSpace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ColorSpace" inverseName="resources" inverseEntity="ColorSpace" syncable="YES"/>
+        <relationship name="uniformTypeIdentifier" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UniformTypeIdentifier" inverseName="resources" inverseEntity="UniformTypeIdentifier" syncable="YES"/>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudAttributesIndex">
+            <fetchIndexElement property="cloudAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCloudMasterIndex">
+            <fetchIndexElement property="cloudMaster" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCodecIndex">
+            <fetchIndexElement property="codec" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byColorSpaceIndex">
+            <fetchIndexElement property="colorSpace" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUniformTypeIdentifierIndex">
+            <fetchIndexElement property="uniformTypeIdentifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="InternalResourceCloudAttributes" representedClassName="PLInternalResourceCloudAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="itemIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastOnDemandDownloadDate" optional="YES" attributeType="Date" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="lastPrefetchDate" attributeType="Date" defaultDateTimeInterval="0" syncable="YES"/>
+        <attribute name="prefetchCount" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="prunedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="resource" maxCount="1" deletionRule="Nullify" destinationEntity="InternalResource" inverseName="cloudAttributes" inverseEntity="InternalResource" syncable="YES"/>
+        <fetchIndex name="byResourceIndex">
+            <fetchIndexElement property="resource" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Keyword" representedClassName="PLManagedKeyword" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="assetAttributes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="keywords" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <fetchIndex name="byTitleIndex">
+            <fetchIndexElement property="title" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetAttributesIndex">
+            <fetchIndexElement property="assetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="title"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+        <userInfo/>
+    </entity>
+    <entity name="LegacyFace" representedClassName="PLManagedLegacyFace" codeGenerationType="class">
+        <attribute name="albumUUID" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="identifier" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="relativeRectValue" optional="YES" attributeType="Transformable" valueTransformerName="PLRectValueFromData">
+            <userInfo/>
+        </attribute>
+        <relationship name="asset" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="legacyFaces" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <fetchIndex name="byAlbumUUIDIndex">
+            <fetchIndexElement property="albumUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byIdentifierIndex">
+            <fetchIndexElement property="identifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="LegacyFaceAlbum" representedClassName="PLManagedLegacyFaceAlbum" parentEntity="Album" codeGenerationType="class">
+        <attribute name="keyAssetFaceIdentifier" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="keyAssetFaceThumbnailIndex" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="MediaAnalysisAssetAttributes" representedClassName="PLMediaAnalysisAssetAttributes" syncable="YES" codeGenerationType="class">
+        <attribute name="activityScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="autoplaySuggestionScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="bestKeyFrameTimeScale" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bestKeyFrameValue" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="bestVideoRangeDurationTimeScale" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bestVideoRangeDurationValue" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="bestVideoRangeStartTimeScale" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="bestVideoRangeStartValue" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="blurrinessScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="exposureScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <attribute name="faceCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mediaAnalysisTimeStamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mediaAnalysisVersion" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoScore" attributeType="Float" defaultValueString="0.5" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="mediaAnalysisAttributes" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Memory" representedClassName="PLMemory" syncable="YES" codeGenerationType="class">
+        <attribute name="assetListPredicate" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="blacklistedFeature" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="category" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="creationDate" attributeType="Date" syncable="YES"/>
+        <attribute name="favorite" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastMoviePlayedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastViewedDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="movieAssetState" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="movieData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="notificationState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pending" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="pendingPlayCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pendingShareCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pendingViewCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="photosGraphData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="photosGraphVersion" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="playCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="rejected" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="score" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="shareCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="subcategory" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <attribute name="userCreated" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <attribute name="viewCount" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="curatedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="memoriesBeingCuratedAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="extendedCuratedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="memoriesBeingExtendedCuratedAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="keyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="memoriesBeingKeyAsset" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="movieCuratedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="memoriesBeingMovieCuratedAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="representativeAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="memoriesBeingRepresentativeAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLastMoviePlayedDateIndex">
+            <fetchIndexElement property="lastMoviePlayedDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byLastViewedDateIndex">
+            <fetchIndexElement property="lastViewedDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPendingIndex">
+            <fetchIndexElement property="pending" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCuratedAssetsIndex">
+            <fetchIndexElement property="curatedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byExtendedCuratedAssetsIndex">
+            <fetchIndexElement property="extendedCuratedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyAssetIndex">
+            <fetchIndexElement property="keyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMovieCuratedAssetsIndex">
+            <fetchIndexElement property="movieCuratedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRepresentativeAssetsIndex">
+            <fetchIndexElement property="representativeAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Moment" representedClassName="PLMoment" syncable="YES" codeGenerationType="class">
+        <attribute name="approximateLatitude" attributeType="Double" defaultValueString="-180" syncable="YES"/>
+        <attribute name="approximateLongitude" attributeType="Double" defaultValueString="-180" syncable="YES"/>
+        <attribute name="cachedCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cachedPhotosCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="cachedVideosCount" optional="YES" attributeType="Integer 32" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="generationType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="modificationDate" attributeType="Date" defaultDateTimeInterval="-946688700" syncable="YES"/>
+        <attribute name="representativeDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="reverseLocationData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="reverseLocationDataContainsLocation" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="reverseLocationDataIsValid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trashedState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="usedLocationsOfInterest" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="GenericAsset" inverseName="moment" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="highlight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="moments" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <relationship name="megaMomentList" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="MomentList" inverseName="momentsForMegaMoment" inverseEntity="MomentList" syncable="YES"/>
+        <relationship name="yearMomentList" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MomentList" inverseName="momentsForYear" inverseEntity="MomentList" syncable="YES"/>
+        <fetchIndex name="byEndDateIndex">
+            <fetchIndexElement property="endDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRepresentativeDateIndex">
+            <fetchIndexElement property="representativeDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byReverseLocationDataIsValidIndex">
+            <fetchIndexElement property="reverseLocationDataIsValid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byStartDateIndex">
+            <fetchIndexElement property="startDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byTrashedStateIndex">
+            <fetchIndexElement property="trashedState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byHighlightIndex">
+            <fetchIndexElement property="highlight" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMegaMomentListIndex">
+            <fetchIndexElement property="megaMomentList" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byYearMomentListIndex">
+            <fetchIndexElement property="yearMomentList" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="MomentList" representedClassName="PLMomentList" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="generationType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="granularityLevel" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="representativeDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="reverseLocationData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="reverseLocationDataContainsLocation" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="reverseLocationDataIsValid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="sortIndex" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trashedState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="momentsForMegaMoment" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Moment" inverseName="megaMomentList" inverseEntity="Moment" syncable="YES"/>
+        <relationship name="momentsForYear" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Moment" inverseName="yearMomentList" inverseEntity="Moment" syncable="YES"/>
+        <fetchIndex name="byGranularityLevelIndex">
+            <fetchIndexElement property="granularityLevel" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRepresentativeDateIndex">
+            <fetchIndexElement property="representativeDate" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byReverseLocationDataIsValidIndex">
+            <fetchIndexElement property="reverseLocationDataIsValid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySortIndexIndex">
+            <fetchIndexElement property="sortIndex" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byTrashedStateIndex">
+            <fetchIndexElement property="trashedState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentsForMegaMomentIndex">
+            <fetchIndexElement property="momentsForMegaMoment" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentsForYearIndex">
+            <fetchIndexElement property="momentsForYear" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="MomentShare" representedClassName="PLMomentShare" syncable="YES" codeGenerationType="class">
+        <attribute name="assetCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="creationDate" attributeType="Date" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="expiryDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="localPublishState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mode" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="originatingScopeIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="previewData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="scopeIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shareURL" optional="YES" attributeType="URI" syncable="YES"/>
+        <attribute name="shouldIgnoreBudgets" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="shouldNotifyOnUploadCompletion" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="status" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailImageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trashedState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadedPhotosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uploadedVideosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <attribute name="videosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="GenericAsset" inverseName="momentShare" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="masters" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CloudMaster" inverseName="momentShare" inverseEntity="CloudMaster" syncable="YES"/>
+        <relationship name="participants" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="MomentShareParticipant" inverseName="momentShare" inverseEntity="MomentShareParticipant" syncable="YES"/>
+        <fetchIndex name="byShareURLIndex">
+            <fetchIndexElement property="shareURL" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMastersIndex">
+            <fetchIndexElement property="masters" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byParticipantsIndex">
+            <fetchIndexElement property="participants" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="MomentShareParticipant" representedClassName="PLMomentShareParticipant" syncable="YES" codeGenerationType="class">
+        <attribute name="emailAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="userIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <relationship name="momentShare" maxCount="1" deletionRule="Nullify" destinationEntity="MomentShare" inverseName="participants" inverseEntity="MomentShare" syncable="YES"/>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentShareIndex">
+            <fetchIndexElement property="momentShare" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Person" representedClassName="PLPerson" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudVerifiedType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="contactMatchingDictionary" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="displayName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="faceCount" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(detectedFaces.hidden == NO) &amp;&amp; (detectedFaces.assetVisible == YES)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="inPersonNamingModel" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="keyFacePickSource" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="manualOrder" attributeType="Integer 32" defaultValueString="4294967295" syncable="YES"/>
+        <attribute name="personUri" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="verifiedType" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="associatedFaceGroup" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFaceGroup" inverseName="associatedPerson" inverseEntity="DetectedFaceGroup" syncable="YES"/>
+        <relationship name="clusterRejectedFaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="clusterRejectedPersons" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="detectedFaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="person" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="faceCrops" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FaceCrop" inverseName="person" inverseEntity="FaceCrop" syncable="YES"/>
+        <relationship name="invalidMergeCandidates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+        <relationship name="keyFace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="personBeingKeyFace" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="mergeCandidates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
+        <relationship name="mergeSourcePersons" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Person" inverseName="mergeTargetPerson" inverseEntity="Person" syncable="YES"/>
+        <relationship name="mergeTargetPerson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="mergeSourcePersons" inverseEntity="Person" syncable="YES"/>
+        <relationship name="personReferences" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="PersonReference" inverseName="person" inverseEntity="PersonReference" syncable="YES"/>
+        <relationship name="rejectedFaces" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="rejectedPersons" inverseEntity="DetectedFace" syncable="YES"/>
+        <relationship name="rejectedFacesNeedingFaceCrops" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DetectedFace" inverseName="rejectedPersonsNeedingFaceCrops" inverseEntity="DetectedFace" syncable="YES"/>
+        <fetchIndex name="byCloudLocalStateIndex">
+            <fetchIndexElement property="cloudLocalState" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceCountIndex">
+            <fetchIndexElement property="faceCount" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byManualOrderIndex">
+            <fetchIndexElement property="manualOrder" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonUriIndex">
+            <fetchIndexElement property="personUri" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonUUIDIndex">
+            <fetchIndexElement property="personUUID" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byTypeIndex">
+            <fetchIndexElement property="type" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byVerifiedTypeIndex">
+            <fetchIndexElement property="verifiedType" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssociatedFaceGroupIndex">
+            <fetchIndexElement property="associatedFaceGroup" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byClusterRejectedFacesIndex">
+            <fetchIndexElement property="clusterRejectedFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byDetectedFacesIndex">
+            <fetchIndexElement property="detectedFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byFaceCropsIndex">
+            <fetchIndexElement property="faceCrops" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byInvalidMergeCandidatesIndex">
+            <fetchIndexElement property="invalidMergeCandidates" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyFaceIndex">
+            <fetchIndexElement property="keyFace" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMergeCandidatesIndex">
+            <fetchIndexElement property="mergeCandidates" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMergeSourcePersonsIndex">
+            <fetchIndexElement property="mergeSourcePersons" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMergeTargetPersonIndex">
+            <fetchIndexElement property="mergeTargetPerson" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonReferencesIndex">
+            <fetchIndexElement property="personReferences" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRejectedFacesIndex">
+            <fetchIndexElement property="rejectedFaces" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRejectedFacesNeedingFaceCropsIndex">
+            <fetchIndexElement property="rejectedFacesNeedingFaceCrops" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="PersonReference" representedClassName="PLPersonReference" syncable="YES" codeGenerationType="class">
+        <attribute name="personData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="personUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assetAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="personReferences" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" inverseName="personReferences" inverseEntity="Person" syncable="YES"/>
+        <fetchIndex name="byAssetAttributesIndex">
+            <fetchIndexElement property="assetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byPersonIndex">
+            <fetchIndexElement property="person" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="PhotosHighlight" representedClassName="PLPhotosHighlight" syncable="YES" codeGenerationType="class">
+        <attribute name="assetsCount" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(assets.hidden == NO) &amp;&amp; (assets.trashedState == 0)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="category" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="enrichmentState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="extendedCount" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(extendedAssets.hidden == NO) &amp;&amp; (extendedAssets.trashedState == 0)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="isCurated" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="mood" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="overviewCount" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(overviewAssets.hidden == NO) &amp;&amp; (overviewAssets.trashedState == 0)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="promotionScore" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="summaryCount" attributeType="Integer 32" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="NSTriggerKey" value="(summaryAssets.hidden == NO) &amp;&amp; (summaryAssets.trashedState == 0)"/>
+            </userInfo>
+        </attribute>
+        <attribute name="timeZoneOffset" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="highlightBeingAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="collection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PhotosHighlightCollection" inverseName="highlights" inverseEntity="PhotosHighlightCollection" syncable="YES"/>
+        <relationship name="extendedAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="highlightBeingExtendedAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="keyAsset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="highlightBeingKeyAsset" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="moments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Moment" inverseName="highlight" inverseEntity="Moment" syncable="YES"/>
+        <relationship name="overviewAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="highlightBeingOverviewAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="summaryAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="highlightBeingSummaryAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byUuidIndex">
+            <fetchIndexElement property="uuid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetsIndex">
+            <fetchIndexElement property="assets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byCollectionIndex">
+            <fetchIndexElement property="collection" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byExtendedAssetsIndex">
+            <fetchIndexElement property="extendedAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyAssetIndex">
+            <fetchIndexElement property="keyAsset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byMomentsIndex">
+            <fetchIndexElement property="moments" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byOverviewAssetsIndex">
+            <fetchIndexElement property="overviewAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="bySummaryAssetsIndex">
+            <fetchIndexElement property="summaryAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="PhotosHighlightCollection" representedClassName="PLPhotosHighlightCollection" syncable="YES" codeGenerationType="class">
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="highlights" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PhotosHighlight" inverseName="collection" inverseEntity="PhotosHighlight" syncable="YES"/>
+        <fetchIndex name="byHighlightsIndex">
+            <fetchIndexElement property="highlights" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="PhotoStreamAlbum" representedClassName="PLPhotoStreamAlbum" parentEntity="Album" codeGenerationType="class">
+        <userInfo/>
+    </entity>
+    <entity name="SceneClassification" representedClassName="PLSceneClassification" syncable="YES" codeGenerationType="class">
+        <attribute name="confidence" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="sceneIdentifier" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="assetAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="sceneClassifications" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <fetchIndex name="bySceneIdentifierIndex">
+            <fetchIndexElement property="sceneIdentifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetAttributesIndex">
+            <fetchIndexElement property="assetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Sceneprint" representedClassName="PLSceneprint" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="additionalAssetAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="sceneprint" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <fetchIndex name="byAdditionalAssetAttributesIndex">
+            <fetchIndexElement property="additionalAssetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="SearchData" representedClassName="PLSearchData" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="valid" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <relationship name="asset" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="searchData" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byValidIndex">
+            <fetchIndexElement property="valid" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="SidecarFile" representedClassName="PLSidecarFile" codeGenerationType="class">
+        <attribute name="captureDate" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="compressedSize" attributeType="Integer 64" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="filename" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0">
+            <userInfo/>
+        </attribute>
+        <attribute name="modificationDate" optional="YES" attributeType="Date">
+            <userInfo/>
+        </attribute>
+        <attribute name="originalFilename" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="ptpTrashedState" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="uniformTypeIdentifier" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <relationship name="asset" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="sidecarFiles" inverseEntity="GenericAsset">
+            <userInfo/>
+        </relationship>
+        <fetchIndex name="byAssetIndex">
+            <fetchIndexElement property="asset" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <userInfo/>
+    </entity>
+    <entity name="Suggestion" representedClassName="PLSuggestion" syncable="YES" codeGenerationType="class">
+        <attribute name="actionData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="activationDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="cachedCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cachedPhotosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cachedVideosCount" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cloudDeleteState" attributeType="Integer 16" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="com.apple.suppressfromchangehub" value="YES"/>
+            </userInfo>
+        </attribute>
+        <attribute name="cloudLocalState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="creationDate" attributeType="Date" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="expungeDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="featuresData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="notificationState" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="relevantUntilDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="state" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="subtitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subtype" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="keyAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="suggestionsBeingKeyAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <relationship name="representativeAssets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="GenericAsset" inverseName="suggestionsBeingRepresentativeAssets" inverseEntity="GenericAsset" syncable="YES"/>
+        <fetchIndex name="byStateIndex">
+            <fetchIndexElement property="state" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byKeyAssetsIndex">
+            <fetchIndexElement property="keyAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byRepresentativeAssetsIndex">
+            <fetchIndexElement property="representativeAssets" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="UniformTypeIdentifier" representedClassName="PLUniformTypeIdentifier" syncable="YES" codeGenerationType="class">
+        <attribute name="conformsToImage" transient="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="conformsToMovie" transient="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="identifier" attributeType="String" syncable="YES"/>
+        <relationship name="resources" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InternalResource" inverseName="uniformTypeIdentifier" inverseEntity="InternalResource" syncable="YES"/>
+        <fetchIndex name="byIdentifierIndex">
+            <fetchIndexElement property="identifier" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <fetchIndex name="byResourcesIndex">
+            <fetchIndexElement property="resources" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="UnmanagedAdjustment" representedClassName="PLUnmanagedAdjustment" syncable="YES" codeGenerationType="class">
+        <attribute name="adjustmentBaseImageFormat" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="adjustmentFormatIdentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="adjustmentFormatVersion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="adjustmentRenderTypes" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="adjustmentTimestamp" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="editorLocalizedName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherAdjustmentsFingerprint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="similarToOriginalAdjustmentsFingerprint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="assetAttributes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AdditionalAssetAttributes" inverseName="unmanagedAdjustment" inverseEntity="AdditionalAssetAttributes" syncable="YES"/>
+        <fetchIndex name="byAssetAttributesIndex">
+            <fetchIndexElement property="assetAttributes" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <elements>
+        <element name="AdditionalAssetAttributes" positionX="-1097.9765625" positionY="-357.95703125" width="128" height="1110"/>
+        <element name="Adjustment" positionX="-1447.140625" positionY="-28.296875" width="128" height="105"/>
+        <element name="Album" positionX="158.984375" positionY="1065.7734375" width="128" height="60"/>
+        <element name="AlbumList" positionX="363.83984375" positionY="775.80859375" width="128" height="105"/>
+        <element name="Asset" positionX="-1270.3359375" positionY="1533.18359375" width="128" height="45"/>
+        <element name="AssetAnalysisState" positionX="-1474.26953125" positionY="90.4609375" width="128" height="165"/>
+        <element name="AssetDescription" positionX="-931.51171875" positionY="-53.3203125" width="128" height="75"/>
+        <element name="CloudFeedAssetsEntry" positionX="-1496.66015625" positionY="433.19140625" width="128" height="60"/>
+        <element name="CloudFeedCommentsEntry" positionX="-1585.27734375" positionY="505.6796875" width="128" height="90"/>
+        <element name="CloudFeedEntry" positionX="-1560.30859375" positionY="281.58984375" width="128" height="120"/>
+        <element name="CloudMaster" positionX="12.30078125" positionY="1487.51171875" width="128" height="315"/>
+        <element name="CloudMasterMediaMetadata" positionX="180.4765625" positionY="1682.92578125" width="128" height="75"/>
+        <element name="CloudResource" positionX="-508.08984375" positionY="1457.8984375" width="128" height="345"/>
+        <element name="CloudSharedAlbum" positionX="310.5234375" positionY="1164.3984375" width="128" height="420"/>
+        <element name="CloudSharedAlbumInvitationRecord" positionX="484.24609375" positionY="1359.32421875" width="128" height="225"/>
+        <element name="CloudSharedComment" positionX="-1746.83203125" positionY="653.19921875" width="128" height="270"/>
+        <element name="Codec" positionX="-1222.9453125" positionY="1769.4921875" width="128" height="75"/>
+        <element name="ColorSpace" positionX="-1194.5625" positionY="1859.37109375" width="128" height="75"/>
+        <element name="ComputedAssetAttributes" positionX="-1891.8828125" positionY="566.65234375" width="128" height="375"/>
+        <element name="DeferredRebuildFace" positionX="403.57421875" positionY="-183.7734375" width="128" height="255"/>
+        <element name="DetectedFace" positionX="249.20703125" positionY="-303.58203125" width="128" height="825"/>
+        <element name="DetectedFaceGroup" positionX="46.7890625" positionY="-4.19921875" width="128" height="135"/>
+        <element name="DetectedFaceprint" positionX="407.6640625" positionY="371.1796875" width="128" height="90"/>
+        <element name="FaceCrop" positionX="407.28125" positionY="154.67578125" width="128" height="210"/>
+        <element name="FetchingAlbum" positionX="-34.6953125" positionY="1281.8984375" width="128" height="105"/>
+        <element name="Folder" positionX="364.70703125" positionY="937.89453125" width="128" height="60"/>
+        <element name="GenericAlbum" positionX="157.703125" positionY="578.33984375" width="128" height="450"/>
+        <element name="GenericAsset" positionX="-1270.32421875" positionY="-142.33203125" width="128" height="1635"/>
+        <element name="ImportSession" positionX="-65.91796875" positionY="1162.50390625" width="128" height="60"/>
+        <element name="InternalResource" positionX="-977.58984375" positionY="1436.171875" width="128" height="375"/>
+        <element name="InternalResourceCloudAttributes" positionX="-803.12890625" positionY="1586.28515625" width="128" height="165"/>
+        <element name="Keyword" positionX="-904.3671875" positionY="36.1484375" width="128" height="75"/>
+        <element name="LegacyFace" positionX="-1523.12890625" positionY="774.55859375" width="128" height="105"/>
+        <element name="LegacyFaceAlbum" positionX="168.43359375" positionY="1280.25390625" width="128" height="75"/>
+        <element name="MediaAnalysisAssetAttributes" positionX="-1652.921875" positionY="1012.53515625" width="128" height="270"/>
+        <element name="Memory" positionX="-1073.9921875" positionY="803.953125" width="128" height="540"/>
+        <element name="Moment" positionX="-1941.21484375" positionY="1213.40234375" width="128" height="390"/>
+        <element name="MomentList" positionX="-2180.71875" positionY="1317.9296875" width="128" height="285"/>
+        <element name="MomentShare" positionX="-313.91796875" positionY="1140.67578125" width="128" height="435"/>
+        <element name="MomentShareParticipant" positionX="-146.5" positionY="1569.33984375" width="128" height="150"/>
+        <element name="Person" positionX="-321.01171875" positionY="-169.0546875" width="128" height="435"/>
+        <element name="PersonReference" positionX="-878.36328125" positionY="131.0546875" width="128" height="105"/>
+        <element name="PhotosHighlight" positionX="-2180.6015625" positionY="817.6484375" width="128" height="390"/>
+        <element name="PhotosHighlightCollection" positionX="-2345.8828125" positionY="1012.28125" width="128" height="120"/>
+        <element name="PhotoStreamAlbum" positionX="92.1015625" positionY="1220.94140625" width="128" height="45"/>
+        <element name="SceneClassification" positionX="-854.25" positionY="373.92578125" width="128" height="90"/>
+        <element name="Sceneprint" positionX="-827.88671875" positionY="473.40625" width="128" height="75"/>
+        <element name="SearchData" positionX="-1477.48046875" positionY="1281.3515625" width="128" height="90"/>
+        <element name="SidecarFile" positionX="-1795.9453125" positionY="1267.63671875" width="128" height="180"/>
+        <element name="Suggestion" positionX="-1627.99609375" positionY="1459.5078125" width="128" height="390"/>
+        <element name="UniformTypeIdentifier" positionX="-801.25390625" positionY="1827.81640625" width="128" height="105"/>
+        <element name="UnmanagedAdjustment" positionX="-872.48828125" positionY="557.1875" width="128" height="195"/>
+    </elements>
+</model>
